@@ -9,5 +9,5 @@ include("../1_basicLogicGates/nor.jl")
 #      NOR()
 #
 function XOR(i0, i1)
-	return nor(and(i0, i1), nor(i0, i1))
+    return nor(and(i0, i1), nor(i0, i1))
 end
