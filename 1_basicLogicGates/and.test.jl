@@ -16,3 +16,36 @@ end
 @testset "AND(1, 1)" begin
     @test and(1, 1) == 1
 end
+
+@testset "AND2(0, 0)" begin
+    @test and2(0, 0) == 0
+end
+
+@testset "AND2(0, 1)" begin
+    @test and2(0, 1) == 0
+end
+
+@testset "AND2(1, 0)" begin
+    @test and2(1, 0) == 0
+end
+
+@testset "AND2(1, 1)" begin
+    @test and2(1, 1) == 1
+end
+
+
+@testset "AND3(0, 0)" begin
+    @test and3(0, 0) == 0
+end
+
+@testset "AND3(0, 1)" begin
+    @test and3(0, 1) == 0
+end
+
+@testset "AND3(1, 0)" begin
+    @test and3(1, 0) == 0
+end
+
+@testset "AND3(1, 1)" begin
+    @test and3(1, 1) == 1
+end
